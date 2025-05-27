@@ -1,7 +1,7 @@
 # 🔐 Caesar Cipher Tool
 
-A simple and beginner-friendly Caesar Cipher encryption and decryption script written in Python.  
-Perfect for learning the basics of string manipulation, loops, and command-line interaction! 🐍✨
+A simple **Caesar Cipher** implementation in Python with an easy-to-use command line interface (CLI).  
+Encrypt or decrypt text by shifting letters in the alphabet. Perfect for beginners learning about encryption!
 
 ---
 
@@ -15,52 +15,59 @@ For example, shifting `A` by 3 gives you `D`.
 
 ## 🚀 Features
 
--   🔁 Encrypt or decrypt messages
--   🧮 Customizable shift values
--   💬 Interactive Command Line Interface (CLI)
--   🔤 Preserves letter casing and ignores special characters
+-   🔄 **Encrypt** or **decrypt** text using Caesar Cipher
+-   📂 **Load text from a file** or enter it manually
+-   💾 **Save the result** to a file
+-   🔁 **Run multiple times** without restarting the program
+-   🛡️ Handles both uppercase and lowercase letters, keeps punctuation intact
 
 ---
 
-## 🛠️ Usage
+## 💻 How to Use
 
-1. Clone or download this repository.
-2. Run the script in a terminal:
+1. Run the script:
 
 ```bash
-python caesar_cipher.py
+    python caesar_cipher.py
 ```
 
-3. Follow the prompts :
+2. Run the script in a terminal:
 
--   Choose a mode: `encrypt` or `decrypt`
--   Enter the text you want to process
--   Enter a shift number (an integer, e.g.3)
+Choose a mode: `encrypt` or `decrypt`
 
-The tool will output the result immediately.
+3. Decide if you want to load the text from a file or input manually
 
-## Example
+4. Enter the shift number (an integer)
+
+5. View the encrypted/decrypted result
+
+6. Optionally save the result to a file
+
+7. Repeat as many times as you want!
+
+---
+
+## ⚙️ Example
 
 ```bash
 🔐 Caesar Cipher Tool
 Choose mode (encrypt/decrypt): encrypt
+Do you want to load the text from a file? (y/n): n
 Enter the text: Hello World!
 Enter the shift number (e.g. 3): 3
 
-Result: Khoor Zruog!
+Result:
+Khoor Zruog!
+
+Do you want to save the result to a file? (y/n): y
+Enter the filename to save to (e.g. result.txt): output.txt
+Result saved to output.txt
+
+Do you want to run another encryption/decryption? (y/n): n
+👋 Goodbye!
 ```
 
-## 🧪 Example
-
--   Encrypting "abc" with a shift of 2 will give: "cde"
--   Decrypting "cde" with a shift of 2 will return: "abc"
-
-## 📄 File Structure
-
-```bash
-📁 Caesar_Cipher/
-└── Caesar_Cipher.py
-```
+---
 
 ## 🧠 Learnings
 
@@ -75,6 +82,14 @@ This small project covers:
 -   Command-line input with input()
 
 -   Defensive programming with basic error handling
+
+---
+
+## 🤝 Contributions
+
+Feel free to open issues or submit pull requests to improve this tool!
+
+---
 
 ## 📄 License
 

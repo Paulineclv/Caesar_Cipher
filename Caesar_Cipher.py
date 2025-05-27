@@ -31,15 +31,23 @@ def caesar_cipher(text, shift, mode='encrypt'):
 if __name__ == "__main__":
     print("🔐 Caesar Cipher Tool")
 
-    # Ask user what they want to do 
-    mode = input("Choose mode (encrypt/decrypt): ").strip().lower()
-    if mode not in ['encrypt', 'decrypt']:
+    # Loop until a valid mode is selected
+    while True:
+        mode = input("Choose mode (encrypt/decrypt): ").strip().lower()
+        if mode in ['encrypt', 'decrypt']:
+            break
         print("Invalid mode selected. Please choose 'encrypt' or 'decrypt'.")
-    else:
-        text = input("Enter the text: ")
+
+    text = input("Enter the text: ")
+
+    # Loop until a valid shift number is entered
+    while True:
         try:
             shift = int(input("Enter the shift number (e.g. 3): "))
-            result = caesar_cipher(text, shift, mode)
-            print(f"\nResult: {result}")
+            break
         except ValueError:
-            print("Shift must be a number.")
+            print("Shift must be a valid number. Please try again.")
+
+    result = caesar_cipher(text, shift, mode)
+    print(f"\nResult: {result}")
+

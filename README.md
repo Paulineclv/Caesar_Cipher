@@ -1,11 +1,11 @@
-# 🔐 Caesar Cipher Tool
+#  Caesar Cipher Tool
 
 A simple **Caesar Cipher** implementation in Python with an easy-to-use command line interface (CLI).  
 Encrypt or decrypt text by shifting letters in the alphabet. Perfect for beginners learning about encryption!
 
 ---
 
-## 📚 What is a Caesar Cipher?
+##  What is a Caesar Cipher?
 
 The Caesar Cipher is one of the oldest known encryption techniques.  
 It works by shifting the letters of the alphabet by a certain number of steps.  
@@ -13,17 +13,17 @@ For example, shifting `A` by 3 gives you `D`.
 
 ---
 
-## 🚀 Features
+##  Features
 
--   🔄 **Encrypt** or **decrypt** text using Caesar Cipher
--   📂 **Load text from a file** or enter it manually
--   💾 **Save the result** to a file
--   🔁 **Run multiple times** without restarting the program
--   🛡️ Handles both uppercase and lowercase letters, keeps punctuation intact
+-    **Encrypt** or **decrypt** text using Caesar Cipher
+-    **Load text from a file** or enter it manually
+-    **Save the result** to a file
+-    **Run multiple times** without restarting the program
+-    Handles both uppercase and lowercase letters, keeps punctuation intact
 
 ---
 
-## 💻 How to Use
+##  How to Use
 
 1. Run the script:
 
@@ -47,10 +47,10 @@ Choose a mode: `encrypt` or `decrypt`
 
 ---
 
-## ⚙️ Example
+##  Example
 
 ```bash
-🔐 Caesar Cipher Tool
+ Caesar Cipher Tool
 Choose mode (encrypt/decrypt): encrypt
 Do you want to load the text from a file? (y/n): n
 Enter the text: Hello World!
@@ -64,12 +64,12 @@ Enter the filename to save to (e.g. result.txt): output.txt
 Result saved to output.txt
 
 Do you want to run another encryption/decryption? (y/n): n
-👋 Goodbye!
+ Goodbye!
 ```
 
 ---
 
-## 🧠 Learnings
+##  Learnings
 
 This small project covers:
 
@@ -91,7 +91,7 @@ Feel free to open issues or submit pull requests to improve this tool!
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 

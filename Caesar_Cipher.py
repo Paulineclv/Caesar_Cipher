@@ -26,7 +26,7 @@ def caesar_cipher(text, shift, mode='encrypt'):
 
 
 if __name__ == "__main__":
-    print("🔐 Caesar Cipher Tool")
+    print(" Caesar Cipher Tool")
 
     while True:
         # Select mode
@@ -74,5 +74,5 @@ if __name__ == "__main__":
         # Ask if the user wants to run again
         again = input("\nDo you want to run another encryption/decryption? (y/n): ").strip().lower()
         if again != 'y':
-            print("👋 Goodbye!")
+            print(" Goodbye!")
             break
